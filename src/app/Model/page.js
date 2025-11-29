@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import './Model.css'
 import { useDispatch, useSelector } from "react-redux";
