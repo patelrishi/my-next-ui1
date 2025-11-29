@@ -1,0 +1,33 @@
+.main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.card{
+    background-color: rgb(140, 159, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 430px;
+    height: auto;
+    margin-bottom:10rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputbox{
+    font-size: 23px;    
+}
+.inputbox input{
+    font-size: 21px;
+}
+.btn{
+    font-size: 23px;
+    padding: 5px;
+    background-color: rgb(216, 211, 100);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

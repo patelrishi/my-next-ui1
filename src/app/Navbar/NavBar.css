@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    background-color:darkgrey;
+    width: 100vw;
+    height: auto;
+    font-size: 38px;
+}
+ .navbar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+.list a{
+    text-decoration: none;
+    color: blue;
+    padding-left: 10px;
+ }
+ .navbar .logout_container{
+    margin: 0rem 10rem;
+ }
+ .navbar .logout_container button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+ }

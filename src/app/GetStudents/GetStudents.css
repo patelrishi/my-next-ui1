@@ -1,0 +1,63 @@
+
+.getstd_btn_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.getstd_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(187, 134, 230);
+    margin-right: 5px;
+}
+.refresh_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(97, 228, 119)
+}
+.table-container{
+    margin: 2rem 4rem;
+}
+.table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: fit-content;
+    height: auto;
+    overflow: hidden;
+
+}
+  th{
+    padding: 10px;
+     border-bottom: 2px solid #ccc;
+     text-align: left;
+     font-weight: bold;
+     font-size: large;
+
+}
+ td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: smaller;
+}
+ tr{
+    background-color: #fff;
+}
+
+.delete_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(236, 78, 130);
+}
+.edit_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(118,242,120);
+}

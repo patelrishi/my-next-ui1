@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.card{
+    text-align: center;
+    margin-top: 20rems;
+    padding: 10px;
+    background-color: rgb(200, 204, 199);
+    height: auto;
+    width: 530px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.card h1{
+    margin: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+.card p{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+.card p input{
+    font-size: 26px;
+
+}
+.card p textarea{
+    font-size: 26px;
+}
+.textarea{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.register_btn{
+    font-size: 23px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgb(82, 245, 82);
+}
